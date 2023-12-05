@@ -1,0 +1,502 @@
+[
+  {
+    "route": "/system/api/v1/category/list",
+    "role": "System",
+    "method": "POST"
+  },
+  {
+    "route": "/system/api/v1/category/:id",
+    "role": "System",
+    "method": "GET"
+  },
+  {
+    "route": "/system/api/v1/category/count",
+    "role": "System",
+    "method": "POST"
+  },
+  {
+    "route": "/system/api/v1/category/update/:id",
+    "role": "System",
+    "method": "PUT"
+  },
+  {
+    "route": "/system/api/v1/category/partial-update/:id",
+    "role": "System",
+    "method": "PUT"
+  },
+  {
+    "route": "/system/api/v1/category/updatebulk",
+    "role": "System",
+    "method": "PUT"
+  },
+  {
+    "route": "/system/api/v1/category/softdelete/:id",
+    "role": "System",
+    "method": "PUT"
+  },
+  {
+    "route": "/system/api/v1/category/softdeletemany",
+    "role": "System",
+    "method": "PUT"
+  },
+  {
+    "route": "/system/api/v1/category/delete/:id",
+    "role": "System",
+    "method": "DELETE"
+  },
+  {
+    "route": "/system/api/v1/category/deletemany",
+    "role": "System",
+    "method": "POST"
+  },
+  {
+    "route": "/system/api/v1/item/list",
+    "role": "System",
+    "method": "POST"
+  },
+  {
+    "route": "/system/api/v1/item/:id",
+    "role": "System",
+    "method": "GET"
+  },
+  {
+    "route": "/system/api/v1/item/count",
+    "role": "System",
+    "method": "POST"
+  },
+  {
+    "route": "/system/api/v1/item/update/:id",
+    "role": "System",
+    "method": "PUT"
+  },
+  {
+    "route": "/system/api/v1/item/partial-update/:id",
+    "role": "System",
+    "method": "PUT"
+  },
+  {
+    "route": "/system/api/v1/item/updatebulk",
+    "role": "System",
+    "method": "PUT"
+  },
+  {
+    "route": "/system/api/v1/item/softdelete/:id",
+    "role": "System",
+    "method": "PUT"
+  },
+  {
+    "route": "/system/api/v1/item/softdeletemany",
+    "role": "System",
+    "method": "PUT"
+  },
+  {
+    "route": "/system/api/v1/item/delete/:id",
+    "role": "System",
+    "method": "DELETE"
+  },
+  {
+    "route": "/system/api/v1/item/deletemany",
+    "role": "System",
+    "method": "POST"
+  },
+  {
+    "route": "/system/api/v1/itemcontent/list",
+    "role": "System",
+    "method": "POST"
+  },
+  {
+    "route": "/system/api/v1/itemcontent/:id",
+    "role": "System",
+    "method": "GET"
+  },
+  {
+    "route": "/system/api/v1/itemcontent/count",
+    "role": "System",
+    "method": "POST"
+  },
+  {
+    "route": "/system/api/v1/itemcontent/update/:id",
+    "role": "System",
+    "method": "PUT"
+  },
+  {
+    "route": "/system/api/v1/itemcontent/partial-update/:id",
+    "role": "System",
+    "method": "PUT"
+  },
+  {
+    "route": "/system/api/v1/itemcontent/updatebulk",
+    "role": "System",
+    "method": "PUT"
+  },
+  {
+    "route": "/system/api/v1/itemcontent/softdelete/:id",
+    "role": "System",
+    "method": "PUT"
+  },
+  {
+    "route": "/system/api/v1/itemcontent/softdeletemany",
+    "role": "System",
+    "method": "PUT"
+  },
+  {
+    "route": "/system/api/v1/itemcontent/delete/:id",
+    "role": "System",
+    "method": "DELETE"
+  },
+  {
+    "route": "/system/api/v1/itemcontent/deletemany",
+    "role": "System",
+    "method": "POST"
+  },
+  {
+    "route": "/system/api/v1/store/list",
+    "role": "System",
+    "method": "POST"
+  },
+  {
+    "route": "/system/api/v1/store/:id",
+    "role": "System",
+    "method": "GET"
+  },
+  {
+    "route": "/system/api/v1/store/count",
+    "role": "System",
+    "method": "POST"
+  },
+  {
+    "route": "/system/api/v1/store/update/:id",
+    "role": "System",
+    "method": "PUT"
+  },
+  {
+    "route": "/system/api/v1/store/partial-update/:id",
+    "role": "System",
+    "method": "PUT"
+  },
+  {
+    "route": "/system/api/v1/store/updatebulk",
+    "role": "System",
+    "method": "PUT"
+  },
+  {
+    "route": "/system/api/v1/store/softdelete/:id",
+    "role": "System",
+    "method": "PUT"
+  },
+  {
+    "route": "/system/api/v1/store/softdeletemany",
+    "role": "System",
+    "method": "PUT"
+  },
+  {
+    "route": "/system/api/v1/store/delete/:id",
+    "role": "System",
+    "method": "DELETE"
+  },
+  {
+    "route": "/system/api/v1/store/deletemany",
+    "role": "System",
+    "method": "POST"
+  },
+  {
+    "route": "/system/api/v1/user/create",
+    "role": "System",
+    "method": "POST"
+  },
+  {
+    "route": "/system/api/v1/user/addbulk",
+    "role": "System",
+    "method": "POST"
+  },
+  {
+    "route": "/system/api/v1/user/list",
+    "role": "System",
+    "method": "POST"
+  },
+  {
+    "route": "/system/api/v1/user/:id",
+    "role": "System",
+    "method": "GET"
+  },
+  {
+    "route": "/system/api/v1/user/count",
+    "role": "System",
+    "method": "POST"
+  },
+  {
+    "route": "/system/api/v1/user/update/:id",
+    "role": "System",
+    "method": "PUT"
+  },
+  {
+    "route": "/system/api/v1/user/partial-update/:id",
+    "role": "System",
+    "method": "PUT"
+  },
+  {
+    "route": "/system/api/v1/user/updatebulk",
+    "role": "System",
+    "method": "PUT"
+  },
+  {
+    "route": "/system/api/v1/user/softdelete/:id",
+    "role": "System",
+    "method": "PUT"
+  },
+  {
+    "route": "/system/api/v1/user/softdeletemany",
+    "role": "System",
+    "method": "PUT"
+  },
+  {
+    "route": "/system/api/v1/user/delete/:id",
+    "role": "System",
+    "method": "DELETE"
+  },
+  {
+    "route": "/system/api/v1/user/deletemany",
+    "role": "System",
+    "method": "POST"
+  },
+  {
+    "route": "/admin/category/create",
+    "role": "Admin",
+    "method": "POST"
+  },
+  {
+    "route": "/admin/category/addbulk",
+    "role": "Admin",
+    "method": "POST"
+  },
+  {
+    "route": "/admin/category/list",
+    "role": "Admin",
+    "method": "POST"
+  },
+  {
+    "route": "/admin/category/:id",
+    "role": "Admin",
+    "method": "GET"
+  },
+  {
+    "route": "/admin/category/count",
+    "role": "Admin",
+    "method": "POST"
+  },
+  {
+    "route": "/admin/category/update/:id",
+    "role": "Admin",
+    "method": "PUT"
+  },
+  {
+    "route": "/admin/category/partial-update/:id",
+    "role": "Admin",
+    "method": "PUT"
+  },
+  {
+    "route": "/admin/category/updatebulk",
+    "role": "Admin",
+    "method": "PUT"
+  },
+  {
+    "route": "/admin/category/softdelete/:id",
+    "role": "Admin",
+    "method": "PUT"
+  },
+  {
+    "route": "/admin/category/softdeletemany",
+    "role": "Admin",
+    "method": "PUT"
+  },
+  {
+    "route": "/admin/category/delete/:id",
+    "role": "Admin",
+    "method": "DELETE"
+  },
+  {
+    "route": "/admin/category/deletemany",
+    "role": "Admin",
+    "method": "POST"
+  },
+  {
+    "route": "/admin/item/create",
+    "role": "Admin",
+    "method": "POST"
+  },
+  {
+    "route": "/admin/item/addbulk",
+    "role": "Admin",
+    "method": "POST"
+  },
+  {
+    "route": "/admin/item/list",
+    "role": "Admin",
+    "method": "POST"
+  },
+  {
+    "route": "/admin/item/:id",
+    "role": "Admin",
+    "method": "GET"
+  },
+  {
+    "route": "/admin/item/count",
+    "role": "Admin",
+    "method": "POST"
+  },
+  {
+    "route": "/admin/item/update/:id",
+    "role": "Admin",
+    "method": "PUT"
+  },
+  {
+    "route": "/admin/item/partial-update/:id",
+    "role": "Admin",
+    "method": "PUT"
+  },
+  {
+    "route": "/admin/item/updatebulk",
+    "role": "Admin",
+    "method": "PUT"
+  },
+  {
+    "route": "/admin/item/softdelete/:id",
+    "role": "Admin",
+    "method": "PUT"
+  },
+  {
+    "route": "/admin/item/softdeletemany",
+    "role": "Admin",
+    "method": "PUT"
+  },
+  {
+    "route": "/admin/item/delete/:id",
+    "role": "Admin",
+    "method": "DELETE"
+  },
+  {
+    "route": "/admin/item/deletemany",
+    "role": "Admin",
+    "method": "POST"
+  },
+  {
+    "route": "/admin/itemcontent/create",
+    "role": "Admin",
+    "method": "POST"
+  },
+  {
+    "route": "/admin/itemcontent/addbulk",
+    "role": "Admin",
+    "method": "POST"
+  },
+  {
+    "route": "/admin/itemcontent/list",
+    "role": "Admin",
+    "method": "POST"
+  },
+  {
+    "route": "/admin/itemcontent/:id",
+    "role": "Admin",
+    "method": "GET"
+  },
+  {
+    "route": "/admin/itemcontent/count",
+    "role": "Admin",
+    "method": "POST"
+  },
+  {
+    "route": "/admin/itemcontent/update/:id",
+    "role": "Admin",
+    "method": "PUT"
+  },
+  {
+    "route": "/admin/itemcontent/partial-update/:id",
+    "role": "Admin",
+    "method": "PUT"
+  },
+  {
+    "route": "/admin/itemcontent/updatebulk",
+    "role": "Admin",
+    "method": "PUT"
+  },
+  {
+    "route": "/admin/itemcontent/softdelete/:id",
+    "role": "Admin",
+    "method": "PUT"
+  },
+  {
+    "route": "/admin/itemcontent/softdeletemany",
+    "role": "Admin",
+    "method": "PUT"
+  },
+  {
+    "route": "/admin/itemcontent/delete/:id",
+    "role": "Admin",
+    "method": "DELETE"
+  },
+  {
+    "route": "/admin/itemcontent/deletemany",
+    "role": "Admin",
+    "method": "POST"
+  },
+  {
+    "route": "/admin/store/create",
+    "role": "Admin",
+    "method": "POST"
+  },
+  {
+    "route": "/admin/store/addbulk",
+    "role": "Admin",
+    "method": "POST"
+  },
+  {
+    "route": "/admin/store/list",
+    "role": "Admin",
+    "method": "POST"
+  },
+  {
+    "route": "/admin/store",
+    "role": "Admin",
+    "method": "GET"
+  },
+  {
+    "route": "/admin/store/count",
+    "role": "Admin",
+    "method": "POST"
+  },
+  {
+    "route": "/admin/store/update",
+    "role": "Admin",
+    "method": "PUT"
+  },
+  {
+    "route": "/admin/store/partial-update/:id",
+    "role": "Admin",
+    "method": "PUT"
+  },
+  {
+    "route": "/admin/store/updatebulk",
+    "role": "Admin",
+    "method": "PUT"
+  },
+  {
+    "route": "/admin/store/softdelete/:id",
+    "role": "Admin",
+    "method": "PUT"
+  },
+  {
+    "route": "/admin/store/softdeletemany",
+    "role": "Admin",
+    "method": "PUT"
+  },
+  {
+    "route": "/admin/store/delete/:id",
+    "role": "Admin",
+    "method": "DELETE"
+  },
+  {
+    "route": "/admin/store/deletemany",
+    "role": "Admin",
+    "method": "POST"
+  }
+]
